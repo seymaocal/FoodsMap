@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "900797566577",
+    "firebase_url": "https://foodsmap-9dd9e.firebaseio.com",
+    "project_id": "foodsmap-9dd9e",
+    "storage_bucket": "foodsmap-9dd9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900797566577:android:e3dfa5b7305de9749495d0",
+        "android_client_info": {
+          "package_name": "com.example.foodsmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900797566577-lk099a5hvnaforgp12d47if5glhqpd31.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodsmap",
+            "certificate_hash": "94db0ef49c2a3f310b084e1ffed79bd3e4d45487"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXErPzXy0OMFDIRvrnUZj-0J6SIEpf9C8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

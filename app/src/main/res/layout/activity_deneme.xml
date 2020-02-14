@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.foodsmap.DenemeActivity">
+<ImageView
+    android:src="@drawable/icon_search"
+    android:layout_marginTop="20dp"
+    android:layout_width="30dp"
+    android:layout_height="30dp"/>
+<EditText
+    android:id="@+id/search_restaurant"
+    android:hint="Restoran Ara"
+    android:layout_marginLeft="35dp"
+    android:layout_marginTop="10dp"
+    android:textSize="18sp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylerview"
+        android:layout_marginTop="65dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <FrameLayout
+        android:id="@+id/deneme_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_appbar"/>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bottom_appbar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            app:itemIconTint="@color/colorBlack"
+            app:labelVisibilityMode="unlabeled"
+            app:menu="@menu/bottom_navigation"
+            android:background="?android:attr/windowBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+</RelativeLayout>

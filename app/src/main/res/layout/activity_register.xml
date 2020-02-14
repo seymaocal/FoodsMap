@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@color/colorSecondary"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:src="@drawable/foodsmap"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+    <EditText
+        android:id="@+id/edit_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Adı"
+        android:theme="@style/MyEditText"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ad"
+        android:theme="@style/MyEditText"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:theme="@style/MyEditText"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şifre"
+        android:theme="@style/MyEditText"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/btn_register_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KAYDOL"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorTextWhite"
+        android:background="@drawable/btn_login_background"
+        />
+    <TextView
+        android:id="@+id/txt_loginsayfasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zaten bir hesabınız var mı? Giriş Yapın"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"/>
+</LinearLayout>

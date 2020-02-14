@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_photo_object"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"/>
+            <TextView
+                android:id="@+id/txt_username_object"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:text="kullanıcı adı"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/post_image_user_object"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+            <ImageView
+                android:id="@+id/like_post_object"
+                android:layout_width="30dp"
+                android:src="@drawable/icon_like"
+                android:layout_height="30dp"/>
+            <ImageView
+                android:id="@+id/comment"
+                android:layout_width="30dp"
+                android:src="@drawable/icon_comment"
+                android:layout_toEndOf="@+id/like_post_object"
+                android:layout_marginStart="10dp"
+                android:layout_height="30dp"/>
+            <ImageView
+                android:id="@+id/saved_post_object"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"/>
+
+
+        </RelativeLayout>
+<TextView
+    android:id="@+id/txt_like_post_object"
+    android:textStyle="bold"
+    android:textColor="@color/colorBlack"
+    android:text="beğeniler"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txt_sender_post_object"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gönderen"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_context_post_object"
+            android:textStyle="normal"
+            android:textColor="@color/colorBlack"
+            android:text="gönderi hakkında"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/txt_comment_post_object"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:text="yorumlar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

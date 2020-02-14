@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodsmap">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/foodsmap"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Restaurant_SaveActivity"></activity>
+        <activity android:name=".MyCommissionActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".RestaurantCommentActivity" />
+        <activity android:name=".CommisionActivity" />
+        <activity android:name=".RestActivity" />
+        <activity android:name=".ProfileEditActivity" />
+        <activity android:name=".FollowActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".Location_PermissionActivity" />
+        <activity android:name=".OptionsActivity" />
+        <activity android:name=".Restaurant_DetailsActivity" />
+        <activity android:name=".DenemeActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCcrR8v1nYRUqA-IgiTp-r8m1wN7DvHC6Y" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".MapActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".CommentsActivity" />
+        <activity android:name=".PostActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".IndexActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

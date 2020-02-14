@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">foodsMap</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_maps_key">AIzaSyCcrR8v1nYRUqA-IgiTp-r8m1wN7DvHC6Y</string>
+    <string name="google_maps_API_key">AIzaSyCcrR8v1nYRUqA-IgiTp-r8m1wN7DvHC6Y</string>
+</resources>

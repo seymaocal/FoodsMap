@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CommisionActivity">
+
+    <TextView
+        android:text="Sipariş Bilgileri"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/name"
+        android:hint="Ad Soyad"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/address"
+        android:hint="Adres bilgilerini giriniz.."
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/telefon"
+        android:hint="Telefon numaranız.."
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/urun"
+        android:hint="urun bilgisi"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+    <TextView
+        android:id="@+id/fiyat"
+        android:hint="fiyat"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+
+
+    <Button
+        android:id="@+id/onayla"
+        android:layout_gravity="end"
+        android:text="Onayla"
+        android:textColor="@color/colorTextWhite"
+        android:background="@drawable/btn_login_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
